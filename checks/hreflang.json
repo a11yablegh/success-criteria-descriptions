@@ -1,0 +1,11 @@
+{
+    "id": "hreflang",
+    "evaluate": "hreflang.js",
+    "metadata": {
+        "impact": "serious",
+        "messages": {
+            "pass": "Document have a valid hreflang",
+            "fail": "At least one of a link element have invalid hreflang attribute"
+        }
+    }
+}

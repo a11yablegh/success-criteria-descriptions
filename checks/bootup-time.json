@@ -1,0 +1,11 @@
+{
+    "id": "bootup-time",
+    "evaluate": "bootup-time.js",
+    "metadata": {
+        "impact": "serious",
+        "messages": {
+            "pass": "JavaScript don't slow down your page",
+            "fail": "The total impact of JavaScript on your page's load performance is too high. {{=it.data.url}} is loaded for {{=it.data.total}}ms. All scripts is loaded for {{=it.data.displayValue}}"
+        }
+    }
+}

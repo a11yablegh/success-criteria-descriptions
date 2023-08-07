@@ -1,0 +1,11 @@
+{
+    "id": "unused-css-rules",
+    "evaluate": "unused-css-rules.js",
+    "metadata": {
+        "impact": "moderate",
+        "messages": {
+            "pass": "Unused CSS are deferred or absent",
+            "fail": "You have uncritical CSS that the page might need later. Defer its downloading. {{=it.data.url}} has {{=Number((it.data.wastedBytes / 1024).toFixed(1)).toLocaleString('en-En')}} KB wasted and {{=it.data.wastedPercent.toFixed(1)}} wasted percent. {{=it.data.displayValue}} of all css files with unused rules."
+        }
+    }
+}

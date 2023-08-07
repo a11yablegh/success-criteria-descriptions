@@ -1,0 +1,11 @@
+{
+    "id": "plugins",
+    "evaluate": "plugins.js",
+    "metadata": {
+        "impact": "minor",
+        "messages": {
+            "pass": "You don't have any plugins",
+            "fail": "You have some plugins"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "id": "meta-missing-description",
+    "fixable": true,
+    "category": [
+        "seo"
+    ],
+    "selector": "meta[name='description']",
+    "excludeHidden": false,
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures every page have meta description",
+        "help": "Page must have meta description"
+    },
+    "all": [
+        "description-check"
+    ],
+    "any": [],
+    "none": []
+}

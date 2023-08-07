@@ -1,0 +1,11 @@
+{
+    "id": "is-small-size",
+    "evaluate": "target-size.js",
+    "metadata": {
+        "impact": "serious",
+        "messages": {
+            "pass": "Target size must be acceptable",
+            "fail": "The size of the target for pointer should be at least 44 by 44 CSS pixels"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": "http-status-code",
+    "fixable": false,
+    "category": [
+        "seo"
+    ],
+    "selector": "html",
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures that pages don't have unsuccessful HTTP status code",
+        "help": "Search engines may not properly index pages that return unsuccessful HTTP status codes"
+    },
+    "all": [
+        "http-status-code"
+    ],
+    "any": [],
+    "none": []
+}

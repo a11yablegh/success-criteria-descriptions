@@ -1,0 +1,11 @@
+{
+    "id": "have-internal-broken-links",
+    "evaluate": "internal-broken-links.js",
+    "metadata": {
+        "impact": "serious",
+        "messages": {
+            "pass": "Ensures internal links is not broken",
+            "fail": "Internal links must refer to real pages"
+        }
+    }
+}

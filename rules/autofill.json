@@ -1,0 +1,22 @@
+{
+    "id": "autofill",
+    "fixable": true,
+    "category": [
+        "accessibility"
+    ],
+    "selector": "input[type='hidden'][autocomplete], input[autocomplete]:not([type]), input[type='text'][autocomplete], input[type='number'][autocomplete], input[type='month'][autocomplete], input[type='date'][autocomplete], input[type='search'], input[type='password'], input[type='url'], input[type='email'], input[type='tel'], textarea, select",
+    "excludeHidden": false,
+    "tags": [
+        "wcag2.1aa",
+        "wcag135"
+    ],
+    "metadata": {
+        "description": "Ensures autocomplete attribute is presented and validated",
+        "help": "Autocomplete attribute should be presented and fitted with an appropriate value to specify input field purpose"
+    },
+    "all": [],
+    "any": [],
+    "none": [
+        "is-not-appropriate-autocomplete"
+    ]
+}

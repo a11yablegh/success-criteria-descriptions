@@ -1,0 +1,20 @@
+{
+    "id": "uses-webp-images",
+    "fixable": false,
+    "category": [
+        "performance"
+    ],
+    "selector": "html",
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures that a page serve images in next-gen WebP formats",
+        "help": "JPEG 2000, JPEG XR, and WebP are image formats that have superior compression and quality characteristics"
+    },
+    "all": [
+        "uses-webp-images"
+    ],
+    "any": [],
+    "none": []
+}

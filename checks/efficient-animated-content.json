@@ -1,0 +1,11 @@
+{
+    "id": "efficient-animated-content",
+    "evaluate": "efficient-animated-content.js",
+    "metadata": {
+        "impact": "serious",
+        "messages": {
+            "pass": "Your GIFs have efficient size",
+            "fail": "Your GIFs have huge size and slow down performance. You have {{=Number((it.data.wastedBytes / 1024).toFixed(1)).toLocaleString('en-En')}} KB wasted. {{=it.data.displayValue}} of all gif files."
+        }
+    }
+}

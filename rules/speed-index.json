@@ -1,0 +1,20 @@
+{
+    "id": "speed-index",
+    "fixable": false,
+    "category": [
+        "performance"
+    ],
+    "selector": "html",
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures that Speed Index was as small as possible",
+        "help": "Speed Index is a page load performance time that shows you how quickly the contents of a page are visibly populated"
+    },
+    "all": [
+        "speed-index"
+    ],
+    "any": [],
+    "none": []
+}

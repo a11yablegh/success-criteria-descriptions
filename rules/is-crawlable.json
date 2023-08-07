@@ -1,0 +1,20 @@
+{
+    "id": "is-crawlable",
+    "fixable": false,
+    "category": [
+        "seo"
+    ],
+    "selector": "html",
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures that page is Not blocked from indexing(crawling)",
+        "help": "Search engines crawl your page in order to understand your content"
+    },
+    "all": [
+        "is-crawlable"
+    ],
+    "any": [],
+    "none": []
+}

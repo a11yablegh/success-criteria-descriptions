@@ -1,0 +1,20 @@
+{
+    "id": "plugins",
+    "fixable": false,
+    "category": [
+        "seo"
+    ],
+    "selector": "html",
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures that remove the plugins and convert your content to HTML",
+        "help": "Search engines can't index plugin content, many mobile devices don't support plugins"
+    },
+    "all": [
+        "plugins"
+    ],
+    "any": [],
+    "none": []
+}

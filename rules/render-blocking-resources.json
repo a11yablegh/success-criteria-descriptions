@@ -1,0 +1,20 @@
+{
+    "id": "render-blocking-resources",
+    "fixable": false,
+    "category": [
+        "performance"
+    ],
+    "selector": "html",
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures that a page doesn't have Render-Blocking Resources",
+        "help": "You can improve your page load speed by inlining links and scripts that are required for first paint, and deferring those that aren't"
+    },
+    "all": [
+        "render-blocking-resources"
+    ],
+    "any": [],
+    "none": []
+}
