@@ -1,0 +1,21 @@
+{
+    "id": "meta-title",
+    "fixable": true,
+    "category": [
+        "seo"
+    ],
+    "selector": "meta[name='title']",
+    "excludeHidden": false,
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures meta title is not too short or too long",
+        "help": "meta title must be between 60-120 characters"
+    },
+    "all": [],
+    "any": [],
+    "none": [
+        "is-short-long-title"
+    ]
+}

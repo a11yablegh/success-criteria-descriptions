@@ -1,0 +1,24 @@
+{
+    "id": "aria-dpub-role-fallback",
+    "fixable": true,
+    "category": [
+        "accessibility"
+    ],
+    "matches": "aria-dpub-role-fallback-matches.js",
+    "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag131",
+        "EN301.549",
+        "EN301.549-9.2.7"
+    ],
+    "metadata": {
+        "description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
+        "help": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles"
+    },
+    "all": [
+        "implicit-role-fallback"
+    ],
+    "any": [],
+    "none": []
+}

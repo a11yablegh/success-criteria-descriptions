@@ -1,0 +1,21 @@
+{
+    "id": "missing-google-analytics",
+    "fixable": true,
+    "category": [
+        "seo"
+    ],
+    "selector": "body",
+    "excludeHidden": false,
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures every page have google analytics",
+        "help": "Page must have google analytics"
+    },
+    "all": [
+        "analytics-check"
+    ],
+    "any": [],
+    "none": []
+}

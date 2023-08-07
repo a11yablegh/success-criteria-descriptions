@@ -1,0 +1,20 @@
+{
+    "id": "uses-text-compression",
+    "fixable": false,
+    "category": [
+        "performance"
+    ],
+    "selector": "html",
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures that a page uses a compressed text content to get faster page loads",
+        "help": "Text compression minimizes the byte size of network responses that include text content"
+    },
+    "all": [
+        "uses-text-compression"
+    ],
+    "any": [],
+    "none": []
+}

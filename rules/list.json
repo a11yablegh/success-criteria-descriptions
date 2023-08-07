@@ -1,0 +1,24 @@
+{
+    "id": "list",
+    "fixable": true,
+    "category": [
+        "accessibility"
+    ],
+    "selector": "ul:not([role]), ol:not([role])",
+    "tags": [
+        "cat.structure",
+        "wcag2a",
+        "wcag131",
+        "EN301.549",
+        "EN301.549-9.2.7"
+    ],
+    "metadata": {
+        "description": "Ensures that lists are structured correctly",
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements"
+    },
+    "all": [],
+    "any": [],
+    "none": [
+        "only-listitems"
+    ]
+}

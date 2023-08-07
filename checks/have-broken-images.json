@@ -1,0 +1,11 @@
+{
+    "id": "have-broken-images",
+    "evaluate": "broken-images.js",
+    "metadata": {
+        "impact": "serious",
+        "messages": {
+            "pass": "Ensures images are not broken",
+            "fail": "Images must load and show pictures"
+        }
+    }
+}

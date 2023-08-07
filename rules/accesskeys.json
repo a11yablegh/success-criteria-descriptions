@@ -1,0 +1,25 @@
+{
+    "id": "accesskeys",
+    "fixable": true,
+    "category": [
+        "accessibility"
+    ],
+    "selector": "[accesskey]",
+    "excludeHidden": false,
+    "tags": [
+        "wcag2a",
+        "wcag211",
+        "cat.keyboard",
+        "EN301.549",
+        "EN301.549-9.2.15"
+    ],
+    "metadata": {
+        "description": "Ensures every accesskey attribute value is unique",
+        "help": "accesskey attribute value must be unique"
+    },
+    "all": [],
+    "any": [],
+    "none": [
+        "accesskeys"
+    ]
+}

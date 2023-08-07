@@ -1,0 +1,20 @@
+{
+    "id": "interactive",
+    "fixable": false,
+    "category": [
+        "performance"
+    ],
+    "selector": "html",
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures the time taken that a page become interactive was as small as possible",
+        "help": "To improve your TTI score, defer or remove unnecessary JavaScript work that occurs during page load"
+    },
+    "all": [
+        "interactive"
+    ],
+    "any": [],
+    "none": []
+}

@@ -1,0 +1,20 @@
+{
+    "id": "efficient-animated-content",
+    "fixable": false,
+    "category": [
+        "performance"
+    ],
+    "selector": "html",
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Animated GIFs should be replaced with video",
+        "help": "Animated GIFs can be downright huge"
+    },
+    "all": [
+        "efficient-animated-content"
+    ],
+    "any": [],
+    "none": []
+}

@@ -1,0 +1,29 @@
+{
+    "id": "color-contrast",
+    "fixable": true,
+    "category": [
+        "accessibility"
+    ],
+    "matches": "color-contrast-matches.js",
+    "excludeHidden": false,
+    "options": {
+        "noScroll": true,
+        "boundToView": true
+    },
+    "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "EN301.549",
+        "EN301.549-9.2.12"
+    ],
+    "metadata": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast"
+    },
+    "all": [],
+    "any": [
+        "color-contrast"
+    ],
+    "none": []
+}

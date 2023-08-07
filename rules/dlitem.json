@@ -1,0 +1,24 @@
+{
+    "id": "dlitem",
+    "fixable": true,
+    "category": [
+        "accessibility"
+    ],
+    "selector": "dd:not([role]), dt:not([role])",
+    "tags": [
+        "cat.structure",
+        "wcag2a",
+        "wcag131",
+        "EN301.549",
+        "EN301.549-9.2.7"
+    ],
+    "metadata": {
+        "description": "Ensures <dt> and <dd> elements are contained by a <dl>",
+        "help": "<dt> and <dd> elements must be contained by a <dl>"
+    },
+    "all": [],
+    "any": [
+        "dlitem"
+    ],
+    "none": []
+}

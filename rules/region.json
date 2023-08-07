@@ -1,0 +1,23 @@
+{
+    "id": "region",
+    "fixable": true,
+    "category": [
+        "accessibility"
+    ],
+    "selector": "html",
+    "pageLevel": true,
+    "enabled": false,
+    "tags": [
+        "cat.keyboard",
+        "best-practice"
+    ],
+    "metadata": {
+        "description": "Ensures all content is contained within a landmark region",
+        "help": "Content should be contained in a landmark region"
+    },
+    "all": [],
+    "any": [
+        "region"
+    ],
+    "none": []
+}

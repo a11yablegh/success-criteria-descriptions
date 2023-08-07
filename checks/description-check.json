@@ -1,0 +1,11 @@
+{
+    "id": "description-check",
+    "evaluate": "meta-missing-description.js",
+    "metadata": {
+        "impact": "serious",
+        "messages": {
+            "pass": "Ensures every page have meta description",
+            "fail": "Page must have meta description"
+        }
+    }
+}

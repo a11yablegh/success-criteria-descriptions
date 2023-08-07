@@ -1,0 +1,21 @@
+{
+    "id": "broken-images",
+    "fixable": true,
+    "category": [
+        "seo"
+    ],
+    "selector": "img",
+    "excludeHidden": false,
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures images are not broken",
+        "help": "images must load and show pictures"
+    },
+    "all": [],
+    "any": [],
+    "none": [
+        "have-broken-images"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "id": "scroll-only-for-small-screen",
+    "evaluate": "scroll-only-for-small-screen.js",
+    "metadata": {
+        "impact": "critical",
+        "messages": {
+            "pass": "Content can be presented without requiring horizontal scrolling, if screen width more than 320px",
+            "fail": "Content have horizontal scrolling and screen width morethan 320px"
+        }
+    }
+}

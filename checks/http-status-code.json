@@ -1,0 +1,11 @@
+{
+    "id": "http-status-code",
+    "evaluate": "http-status-code.js",
+    "metadata": {
+        "impact": "serious",
+        "messages": {
+            "pass": "All pages have successful HTTP status code",
+            "fail": "At least one of a page return unsuccessful HTTP status code. It is '{{=it.data.displayValue}}'"
+        }
+    }
+}

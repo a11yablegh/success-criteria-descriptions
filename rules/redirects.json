@@ -1,0 +1,20 @@
+{
+    "id": "redirects",
+    "fixable": false,
+    "category": [
+        "performance"
+    ],
+    "selector": "html",
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures that a page doesn't have 2 or more redirects",
+        "help": "Redirects slow down your page load speed"
+    },
+    "all": [
+        "redirects"
+    ],
+    "any": [],
+    "none": []
+}

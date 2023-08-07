@@ -1,0 +1,11 @@
+{
+    "id": "uses-optimized-images",
+    "evaluate": "uses-optimized-images.js",
+    "metadata": {
+        "impact": "serious",
+        "messages": {
+            "pass": "Potential savings with compressing images are insignificant",
+            "fail": "You loose potential savings with avoiding compressing images. {{=it.data.url}} has {{=Number((it.data.wastedBytes / 1024).toFixed(1)).toLocaleString('en-En')}} KB wasted. {{=it.data.displayValue}} of all images."
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": "bypass",
+    "fixable": true,
+    "category": [
+        "accessibility"
+    ],
+    "selector": "html",
+    "pageLevel": true,
+    "matches": "bypass-matches.js",
+    "tags": [
+        "cat.keyboard",
+        "wcag2a",
+        "wcag241",
+        "section508",
+        "section508.22.o",
+        "EN301.549",
+        "EN301.549-9.2.20"
+    ],
+    "metadata": {
+        "description": "Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+        "help": "Page must have means to bypass repeated blocks"
+    },
+    "all": [],
+    "any": [
+        "internal-link-present",
+        "header-present",
+        "landmark"
+    ],
+    "none": []
+}

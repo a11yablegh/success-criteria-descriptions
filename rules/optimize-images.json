@@ -1,0 +1,19 @@
+{
+    "id": "optimize-images",
+    "fixable": true,
+    "category": [
+        "seo"
+    ],
+    "selector": "img",
+    "excludeHidden": false,
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures images are optimized",
+        "help": "images must be optimized to reduce their filesize"
+    },
+    "all": [],
+    "any": [],
+    "none": []
+}
