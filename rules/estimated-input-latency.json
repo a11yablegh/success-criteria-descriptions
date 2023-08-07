@@ -1,0 +1,20 @@
+{
+    "id": "estimated-input-latency",
+    "fixable": false,
+    "category": [
+        "performance"
+    ],
+    "selector": "html",
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures that apps takes 50ms to respond to user input",
+        "help": "Input responsiveness is a key factor in how users perceive the performance of your app"
+    },
+    "all": [
+        "estimated-input-latency"
+    ],
+    "any": [],
+    "none": []
+}

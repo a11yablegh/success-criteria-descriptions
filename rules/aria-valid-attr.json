@@ -1,0 +1,24 @@
+{
+    "id": "aria-valid-attr",
+    "fixable": true,
+    "category": [
+        "accessibility"
+    ],
+    "matches": "aria-has-attr-matches.js",
+    "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag411",
+        "EN301.549",
+        "EN301.549-9.2.37"
+    ],
+    "metadata": {
+        "description": "Ensures attributes that begin with aria- are valid ARIA attributes",
+        "help": "ARIA attributes must conform to valid names"
+    },
+    "all": [],
+    "any": [
+        "aria-valid-attr"
+    ],
+    "none": []
+}

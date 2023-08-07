@@ -1,0 +1,11 @@
+{
+    "id": "is-short-long-title",
+    "evaluate": "meta-title.js",
+    "metadata": {
+        "impact": "serious",
+        "messages": {
+            "pass": "Ensures meta title is not too short or too long",
+            "fail": "meta title must be between 60-120 characters"
+        }
+    }
+}

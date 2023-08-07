@@ -1,0 +1,24 @@
+{
+    "id": "aria-required-children",
+    "fixable": true,
+    "category": [
+        "accessibility"
+    ],
+    "selector": "[role]",
+    "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag131",
+        "EN301.549",
+        "EN301.549-9.2.7"
+    ],
+    "metadata": {
+        "description": "Ensures elements with an ARIA role that require child roles contain them",
+        "help": "Certain ARIA roles must contain particular children"
+    },
+    "all": [],
+    "any": [
+        "aria-required-children"
+    ],
+    "none": []
+}

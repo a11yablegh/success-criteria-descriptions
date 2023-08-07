@@ -1,0 +1,38 @@
+{
+    "id": "link-name",
+    "fixable": true,
+    "category": [
+        "accessibility",
+        "seo"
+    ],
+    "selector": "a[href]:not([role=\"button\"]), [role=link][href]",
+    "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag111",
+        "wcag412",
+        "wcag244",
+        "section508",
+        "section508.22.a",
+        "SEO",
+        "EN301.549",
+        "EN301.549-9.2.1",
+        "EN301.549-9.2.38",
+        "EN301.549-9.2.23"
+    ],
+    "metadata": {
+        "description": "Ensures links have discernible text",
+        "help": "Links must have discernible text"
+    },
+    "all": [],
+    "any": [
+        "has-visible-text",
+        "aria-label",
+        "aria-labelledby",
+        "role-presentation",
+        "role-none"
+    ],
+    "none": [
+        "focusable-no-name"
+    ]
+}

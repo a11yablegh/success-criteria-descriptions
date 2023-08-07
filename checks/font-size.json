@@ -1,0 +1,11 @@
+{
+    "id": "font-size",
+    "evaluate": "font-size.js",
+    "metadata": {
+        "impact": "minor",
+        "messages": {
+            "pass": "Font size is legible",
+            "fail": "Font sizes smaller than 12px are often difficult to read on mobile devices, and may require users to pinch-to-zoom in order to display the text at a comfortable reading size. {{=it.data.explanation}}"
+        }
+    }
+}

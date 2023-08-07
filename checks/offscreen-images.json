@@ -1,0 +1,11 @@
+{
+    "id": "offscreen-images",
+    "evaluate": "offscreen-images.js",
+    "metadata": {
+        "impact": "moderate",
+        "messages": {
+            "pass": "You don't have any offscreen-images",
+            "fail": "You have some offscreen-images"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "id": "total-byte-weight",
+    "evaluate": "total-byte-weight.js",
+    "metadata": {
+        "impact": "serious",
+        "messages": {
+            "pass": "Network payloads are efficient",
+            "fail": "Your site has enormous network payloads. {{=it.data.url}} has {{=Number((it.data.totalBytes / 1024).toFixed(1)).toLocaleString('en-En')}} KB of payload. {{=it.data.displayValue}} of all payloads."
+        }
+    }
+}

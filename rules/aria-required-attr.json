@@ -1,0 +1,26 @@
+{
+    "id": "aria-required-attr",
+    "fixable": true,
+    "category": [
+        "accessibility"
+    ],
+    "selector": "[role]",
+    "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag411",
+        "wcag412",
+        "EN301.549",
+        "EN301.549-9.2.37",
+        "EN301.549-9.2.38"
+    ],
+    "metadata": {
+        "description": "Ensures elements with ARIA roles have all required ARIA attributes",
+        "help": "Required ARIA attributes must be provided"
+    },
+    "all": [],
+    "any": [
+        "aria-required-attr"
+    ],
+    "none": []
+}

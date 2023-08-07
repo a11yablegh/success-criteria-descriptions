@@ -1,0 +1,11 @@
+{
+    "id": "redundant-title",
+    "evaluate": "image-redundant-alt.js",
+    "metadata": {
+        "impact": "serious",
+        "messages": {
+            "pass": "Element does not have redundant description (title, descriptive label and inner text are empty or different)",
+            "fail": "Title or descriptive label or inner text are the same among themselves"
+        }
+    }
+}

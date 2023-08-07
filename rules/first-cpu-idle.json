@@ -1,0 +1,20 @@
+{
+    "id": "first-cpu-idle",
+    "fixable": false,
+    "category": [
+        "performance"
+    ],
+    "selector": "html",
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures that the time when a page is minimally interactive was as small as possible",
+        "help": "The First CPU Idle metric measures when a page is minimally interactive"
+    },
+    "all": [
+        "first-cpu-idle"
+    ],
+    "any": [],
+    "none": []
+}

@@ -1,0 +1,11 @@
+{
+    "id": "is-short-long-description",
+    "evaluate": "meta-description.js",
+    "metadata": {
+        "impact": "moderate",
+        "messages": {
+            "pass": "Ensures meta description is not too short or too long",
+            "fail": "meta description must be between 20-120 characters"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": "unminified-javascript",
+    "fixable": false,
+    "category": [
+        "performance"
+    ],
+    "selector": "html",
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures that javascript files are minified",
+        "help": "Removing unused code, using shorter variable and function names, and so on"
+    },
+    "all": [
+        "unminified-javascript"
+    ],
+    "any": [],
+    "none": []
+}

@@ -1,0 +1,11 @@
+{
+    "id": "uses-webp-images",
+    "evaluate": "uses-webp-images.js",
+    "metadata": {
+        "impact": "minor",
+        "messages": {
+            "pass": "Potential savings with image conversion are insignificant",
+            "fail": "Potential savings are more than 8KB. Collect each BMP, JPEG, and PNG image on the page, and then convert each to WebP. {{=it.data.url}} has {{=Number((it.data.wastedBytes / 1024).toFixed(1)).toLocaleString('en-En')}} KB wasted. {{=it.data.displayValue}} of all images."
+        }
+    }
+}

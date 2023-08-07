@@ -1,0 +1,20 @@
+{
+    "id": "bootup-time",
+    "fixable": false,
+    "category": [
+        "performance"
+    ],
+    "selector": "html",
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures that javascript bootup time Is not too high",
+        "help": "Transmission size is critical for low-end networks"
+    },
+    "all": [
+        "bootup-time"
+    ],
+    "any": [],
+    "none": []
+}

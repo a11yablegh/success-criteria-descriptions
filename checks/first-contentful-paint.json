@@ -1,0 +1,11 @@
+{
+    "id": "first-contentful-paint",
+    "evaluate": "first-contentful-paint.js",
+    "metadata": {
+        "impact": "serious",
+        "messages": {
+            "pass": "The first contentful paint time is efficient",
+            "fail": "The time from navigation to the time when the browser renders the first bit of content from the DOM(first contentful paint time) is too hight. It is {{=it.data.displayValue}}"
+        }
+    }
+}

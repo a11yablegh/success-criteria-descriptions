@@ -1,0 +1,19 @@
+{
+    "id": "missing-h1",
+    "fixable": true,
+    "category": [
+        "seo"
+    ],
+    "selector": "body",
+    "excludeHidden": false,
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures page have at least one h1 tag",
+        "help": "Page must have at least one h1 tag"
+    },
+    "all": [],
+    "any": [],
+    "none": []
+}

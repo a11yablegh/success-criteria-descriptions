@@ -1,0 +1,11 @@
+{
+    "id": "is-label-in-name",
+    "evaluate": "is-label-in-name.js",
+    "metadata": {
+        "impact": "moderate",
+        "messages": {
+            "pass": "For user interface components with labels that include text or images of text, the name contains the text that is presented visually.",
+            "fail": "Accessible name doesn't matches or doesn't starts with visible label"
+        }
+    }
+}

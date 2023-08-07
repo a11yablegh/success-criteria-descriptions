@@ -1,0 +1,21 @@
+{
+    "id": "duplicate-title",
+    "fixable": true,
+    "category": [
+        "seo"
+    ],
+    "selector": "title",
+    "excludeHidden": false,
+    "tags": [
+        "SEO"
+    ],
+    "metadata": {
+        "description": "Ensures every title is unique across all pages",
+        "help": "title value must be unique across all pages"
+    },
+    "all": [],
+    "any": [],
+    "none": [
+        "duplicate-title"
+    ]
+}
